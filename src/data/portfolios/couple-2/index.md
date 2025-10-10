@@ -1,18 +1,18 @@
 ---
-title: A beachside celebration
-description: The sandy shores, kissed by gentle waves, provided a serene backdrop for your beach wedding.
-heroImage: ./couple-3-square.jpg
+title: A spiritual sunset
+description: The sandy shores, kissed by gentle waves, provide a serene backdrop for your maternity shoot.
+heroImage: ./5D4_0212.jpg
 date: "Jun 12 2024"
-location: Miami, Florida
-clients: [Alex, Jeff]
+location: Sydney, NSW
+clients: [Ben, Maria]
 images:
   [
-    [./couple-2-min-2.jpg, ./couple-2-min-2.jpg],
-    [./rings-wood-min-2.jpg, ./seals-min-2.jpg, ./rings-wood-min-2.jpg],
-    [./couple-9-2.jpg],
-    [./cake-min-2.jpg, ./dress-min-2.jpg],
+    [./5D4_0172.jpg, ./5D4_0001.jpg],
+    [./5D3_9715-Enhanced-NR.jpg, ./5D4_0117.jpg, ./5D4_0131.jpg],
+    [./5D4_0161.jpg],
+    [./5D4_0315.jpg, ./5D4_0335-Enhanced-NR.jpg],
   ]
 order: 2
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.

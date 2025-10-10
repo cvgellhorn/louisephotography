@@ -15,6 +15,7 @@ interface Props {
 	rel?: string; // the rel for the link, ex "noopener"
 	arrow?: "left" | "right" | "none";
 	onclick?: any; // any onclick events
+	id?: string; // the id attribute for the button/link element
 	class?: string; // any additional classes
 	rest?: any; // catch-all for any additional parameters, such as "aria-label"
 }
@@ -25,6 +26,7 @@ const {
 	href,
 	arrow = "none",
 	onclick,
+	id,
 	class: className,
 	...rest
 } = Astro.props as Props;
@@ -50,6 +52,7 @@ const {
 				},
 			]}
 			href={href}
+			id={id}
 			onclick={onclick}
 			{...rest}
 		>
@@ -95,6 +98,7 @@ const {
 				},
 			]}
 			type={type}
+			id={id}
 			onclick={onclick}
 			{...rest}
 		>

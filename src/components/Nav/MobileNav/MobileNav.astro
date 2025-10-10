@@ -52,8 +52,8 @@ import { Icon } from "astro-icon/components";
 				</ul>
 			</nav>
 			<div class="mx-1 mt-2 w-full px-4">
-				<Button variant="outline" class="w-full" href="https://cosmicthemes.com/themes/horizon/">
-					Get Horizon
+				<Button variant="outline" id="mobile-button-get-quote" class="w-full" href="#contact">
+					Get A Quote
 				</Button>
 			</div>
 		</div>
@@ -72,6 +72,7 @@ import { Icon } from "astro-icon/components";
 	let mobileNavContent: HTMLElement | null;
 	let mobileNavCloseBtn: HTMLElement | null;
 	let mobileNavBackdrop: HTMLElement | null;
+	let mobileGetQuoteBtn: HTMLElement | null;
 
 	function toggleMobileNav(event: Event) {
 		if (mobileNavBurger && mobileNavContent && mobileNavContainer && mobileNavBackdrop)
@@ -118,11 +119,31 @@ import { Icon } from "astro-icon/components";
 		mobileNavContent = document.getElementById("mobile-nav__content");
 		mobileNavCloseBtn = document.getElementById("mobile-nav__close");
 		mobileNavBackdrop = document.getElementById("mobile-nav__backdrop");
+		mobileGetQuoteBtn = document.getElementById("mobile-button-get-quote");
 
 		if (mobileNavBurger && mobileNavCloseBtn && mobileNavBackdrop) {
 			mobileNavBurger.addEventListener("click", toggleMobileNav);
 			mobileNavCloseBtn.addEventListener("click", toggleMobileNav);
 			mobileNavBackdrop.addEventListener("click", toggleMobileNav);
+			mobileGetQuoteBtn?.addEventListener("click", (event) => {
+				// Navigate to the href if it exists
+				const href = mobileGetQuoteBtn?.getAttribute("href");
+
+				// Check if we're on the privacy policy page
+				const currentPath = window.location.pathname;
+				if (currentPath.includes("privacy-policy")) {
+					// Navigate to base URL + href for privacy policy page
+					const baseUrl = window.location.origin;
+					if (href) {
+						window.location.href = baseUrl + href;
+						return;
+					}
+				}
+				if (href) {
+					toggleMobileNav(event);
+					window.location.href = href;
+				}
+			});
 		}
 	}
 

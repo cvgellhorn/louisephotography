@@ -49,7 +49,7 @@ const { startStyle = "default", rest } = Astro.props as Props;
 					<Button
 						variant="secondary"
 						class=`nav__cta py-1 my-auto hidden md:block ${startStyle === "white" ? "data-[scrolled=true]:border-primary-200 data-[scrolled=true]:hover:border-primary-200/80" : "border-primary-200"}`
-						href="/#contact"
+						href="#contact"
 						data-scrolled="false"
 					>
 						Get A Quote
@@ -88,6 +88,22 @@ const { startStyle = "default", rest } = Astro.props as Props;
 		navbar = document.getElementById("nav__container");
 		navCTA = navbar?.querySelector(".nav__cta") as HTMLElement;
 		window.addEventListener("scroll", scrollHandler, { passive: true });
+
+		navCTA?.addEventListener("click", (event) => {
+			// Check if we're on the privacy policy page
+			const currentPath = window.location.pathname;
+			if (currentPath.includes("privacy-policy")) {
+				// Navigate to base URL + href for privacy policy page
+				const baseUrl = window.location.origin;
+				const href = navCTA?.getAttribute("href");
+				if (href) {
+					event.preventDefault();
+					window.location.href = baseUrl + href;
+					return;
+				}
+			}
+			window.location.href = "#contact";
+		});
 	}
 
 	// runs on initial page load

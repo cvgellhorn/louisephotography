@@ -16,11 +16,11 @@ export interface SiteDataProps {
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-	name: "Louise Photography",
+	name: "Louise Pillon",
 	// Your website's title and description (meta fields)
-	title: "Louise Photography",
+	title: "Louise Pillon",
 	description:
-		"Louise Photography is a wedding photographer based in Sydney, Australia. She specializes in maternity, newborn, and wedding photography.",
+		"Louise Pillon is a photographer based in Sydney, Australia. She specializes in maternity, newborn, and family photography.",
 	useViewTransitions: true,
 	// Your information!
 	author: {

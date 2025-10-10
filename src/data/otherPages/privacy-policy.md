@@ -3,47 +3,79 @@ title: Privacy Policy
 description: Example privacy policy for Blogsmith! The best starter blog template for Astro.
 ---
 
-_Last updated on Sep 9, 2023_
+_Last updated on Oct 11, 2025_
 
-This privacy policy sets out how Example LLC collects, processes, and uses your Personal Information through your use of our Services.
+## General
 
-**This is purely for example. Please consult a lawyer for your own privacy policy.**
+Louise Pillon ("we," "us," or "our") operates the website louisepillon.com (the "Website"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our Website. We are committed to protecting your privacy and ensuring that your personal information is handled responsibly.
 
-## Personal Information Collection
+Please read this Privacy Policy carefully. By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the terms, please do not access or use the Website.
 
-We only collect and use Personal Information to the extent necessary to provide you with the Services. We collect Personal Information for the Website to provide you with a better online experience.
+## Information We Collect
 
-## Personal Information Retention
+We may collect the following types of information:
 
-We keep Personal Information for the shortest time necessary to provide you with Services and to meet all our legal and compliance obligations. To determine this retention period, we take into account (i) the nature of the Personal Information gathered; and (ii) the nature of our legal and compliance obligations. All Personal Information no longer required by us is destroyed and/or erased.
+### Personal Information
 
-## Personal Data from Third Parties
+- **Contact Information**: When you contact us through the Website (e.g., via the contact form), we may collect your name, email address, phone number, and any other information you voluntarily provide in your message.
+- We do not offer any online services, subscriptions, or accounts on the Website, so we do not collect payment information, login credentials, or other sensitive personal data.
 
-We may, from time to time, obtain Personal Information from third parties to enable us to better tailor our Services to you (Third Party Personal Information). When we obtain Third Party Personal Information, we will notify you within one month. If we use or share Third Party Personal Information, we will notify you immediately.
+### Non-Personal Information
 
-## Your Rights
+- **Usage Data**: We may automatically collect information about your device and browsing activity, such as your IP address, browser type, operating system, referring URLs, pages viewed, and the dates/times of your visits. This is collected through cookies or similar technologies for analytical purposes to improve the Website.
+- **Images and Media**: The Website displays photographs and images that have been cleared for use with the explicit consent of the clients or subjects involved. We do not collect or store personal data from these images without permission.
 
-With respect to Personal Information we hold, you have the following rights:
+We do not knowingly collect personal information from children under the age of 13. If we become aware that we have inadvertently collected such information, we will delete it promptly.
 
-- Access: You may request from us access to your data that we hold on you.
-- Rectification: If the data we hold on you is inaccurate, you may request that we correct it. If the data we hold is incomplete, you may request that we complete it.
-- Erasure: Subject to certain conditions, you may request that we erase all of the data we hold on you.
-- Restrictions: Subject to certain conditions, you may request that we restrict the processing of data we hold on you.
-- Portability: Subject to certain conditions, you may request that we transfer all the data we hold on you to a third party (including yourself).
-- Objection: Subject to certain conditions, you may object to our processing of your data.
+## How We Use Your Information
 
-## Minors
+We use the information we collect for the following purposes:
 
-We do not knowingly collect information on children under the age of 16 (“Child”). If you become aware that a Child has provided us with Personal Information, please contact us. If we become aware that we have collected Personal Information from a Child without their parent's verifiable authorization to access our Services, we will take steps to remove that information from our servers.
+- To respond to your inquiries and communicate with you about photography services.
+- To improve and maintain the Website, including analyzing usage patterns.
+- To comply with legal obligations or protect our rights.
+- For any other purpose with your consent.
 
-## Third Party Links
+We do not use your information for marketing purposes unless you explicitly opt-in.
 
-Our website contains links to other third-party websites not owned or managed by Example LLC. This privacy policy applies to this website only. If you click a link to a third-party website, the privacy policy of that website will apply. We highly recommend that you read the privacy policies of other websites as they may be different from ours.
+## Sharing Your Information
 
-## Merger, acquisition, or asset sale
+We do not sell, rent, or trade your personal information to third parties. We may share your information in the following limited circumstances:
 
-If Example LLC is involved in a merger, acquisition, or asset sale, your Personal Information may be transferred.
+- With service providers (e.g., web hosting or email services) who assist us in operating the Website, provided they agree to keep your information confidential.
+- If required by law, such as in response to a subpoena, court order, or other governmental request.
+- To protect our rights, property, or safety, or that of our users or others.
 
-## Contact us
+## Data Security
 
-If you have any questions or suggestions about our privacy policy or want to know more information about Personal Information we hold, please contact us at support@example.com.
+We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is completely secure, so we cannot guarantee absolute security.
+
+## Your Rights and Choices
+
+Depending on your location, you may have certain rights regarding your personal information, such as:
+
+- Accessing, updating, or deleting your information.
+- Opting out of cookies (you can manage cookie preferences through your browser settings).
+- Withdrawing consent where applicable.
+
+To exercise these rights, please contact us using the information below. We will respond to your request in accordance with applicable laws.
+
+## Cookies and Tracking Technologies
+
+We use cookies to enhance your experience on the Website. You can disable cookies in your browser settings, but this may affect the functionality of the Website.
+
+## Third-Party Links
+
+The Website may contain links to third-party websites. We are not responsible for the privacy practices of those sites. We encourage you to review their privacy policies.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date. Your continued use of the Website after changes constitutes your acceptance of the updated policy.
+
+## Contact Us
+
+If you have any questions about this Privacy Policy or our practices, please contact us at:
+
+Louise Pillon  
+Email: [info@louisepillon.com](mailto:info@louisepillon.com)  
+Website: louisepillon.com

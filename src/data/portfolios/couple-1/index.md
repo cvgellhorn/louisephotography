@@ -1,18 +1,18 @@
 ---
-title: A mountain escape
-description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
-heroImage: ./couple-9-square.jpg
+title: A beachside celebration
+description: Transform your maternity moments into lasting memories amidst Sydney's majestic landscape.
+heroImage: ./Image_419.JPG
 date: "Aug 5 2024"
-location: Malibu, California
-clients: [Hannah, Marco]
+location: Sydney, NSW
+clients: [Grant, Blanca]
 images:
   [
-    [./couple-2-min-1.jpg, ./couple-2-min-1.jpg],
-    [./rings-wood-min-1.jpg, ./seals-min-1.jpg, ./rings-wood-min-1.jpg],
-    [./couple-9-1.jpg],
-    [./cake-min-1.jpg, ./dress-min-1.jpg],
+    [./Image_170.jpg, ./Image_182.jpg],
+    [./Image_309.jpg, ./Image_599.jpg, ./Image_291.jpg],
+    [./Image_777.jpg],
+    [./Image_103.jpg, ./Image_396.jpg],
   ]
 order: 1
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+This beach sunset was a breathtaking affair. The stunning views provided a picturesque backdrop.
