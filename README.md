@@ -1,29 +1,23 @@
-# Welcome to Horizon!
+# Louise Pillon Photography
 
-This is a free photography theme for Astro created by [Cosmic Themes](https://cosmicthemes.com/).
+This is the photography portfolio website for **Louise Pillon**, a photographer based in Sydney, Australia, specializing in maternity, newborn, and family photography.
 
-[website demo](https://horizon.cosmicthemes.com/)
+Built with [Astro](https://astro.build) using the Horizon theme from [Cosmic Themes](https://cosmicthemes.com/).
 
 ## Quickstart
 
-1. Fork this project to your own repository, and clone it to your local machine
+1. Clone this repository to your local machine
 2. Install all necessary packages with `npm install`
 3. Run `npm run dev` to start the dev server
-4. Now you can setup the site to your liking!
-   - [Style customization](https://cosmicthemes.com/docs/styles/)
-   - [Content editing](https://cosmicthemes.com/docs/content/)
-   - [Forms](https://cosmicthemes.com/docs/contact-form/)
-5. Update the site URL in `astro.config.mjs` and `/public/robots.txt` to match your domain
-6. After you're happy, update your changes to your repo and [deploy to Netlify, Vercel, Cloudflare](https://cosmicthemes.com/deployment/), or other provider of your choice
+4. The site will be available at `localhost:4321`
+5. Update the site URL in `astro.config.mjs` and `/public/robots.txt` to match your domain before deployment
 
-## Code Intro
+## Project Structure
 
-The source files have the following setup. Note that not all files are listed here.
+The source files have the following setup:
 
 ```
 .
-├── .tours/
-│   └── code-intro.tour
 ├── public/
 │   ├── favicons/
 │   │   └── favicon.ico
@@ -32,76 +26,78 @@ The source files have the following setup. Note that not all files are listed he
 ├── src/
 │   ├── assets/
 │   │   └── images/
-│   │       └── site-logo.png
+│   │       └── louise/
 │   ├── components/
-│   │   └── Hero/
-│   │       └── Hero.astro
+│   │   ├── Hero/
+│   │   ├── Portfolio/
+│   │   ├── Testimonials/
+│   │   └── ... (other components)
 │   ├── config/
-│   │   └── navData.json.ts
+│   │   ├── navData.json.ts
+│   │   └── siteData.json.ts
 │   ├── data/
-│   │   ├── portfolios/
-│   │   ├── testimonials/
-│   │   └──otherPages/
-│   │    config.ts
-│   ├── js/
-│   │   └── textUtils.ts
+│   │   ├── portfolios/         # Portfolio galleries
+│   │   ├── testimonials/       # Client testimonials
+│   │   └── otherPages/         # Additional pages
 │   ├── layouts/
-│   │   └── BaseLayout.astro
+│   │   ├── BaseLayout.astro
+│   │   └── PortfolioLayout.astro
 │   ├── pages/
-│   │   ├── index.astro
-│   │   ├── portfolio/
-│   │   │   ├── [...slug].astro
-│   │   │   └── index.astro
-│   │   ├── [page].astro
-│   │   ├── 404.astro
-│   │   └── index.astro
+│   │   ├── index.astro         # Homepage
+│   │   ├── portfolio/          # Portfolio pages
+│   │   ├── [page].astro        # Dynamic pages
+│   │   └── 404.astro
 │   ├── styles/
 │   │   └── global.css
 │   └── content.config.ts
-├── .gitignore
-├── .prettierrc.mjs
 ├── astro.config.mjs
 ├── netlify.toml
 ├── package.json
-├── package-lock.json
-├── README.md
 └── tsconfig.json
 ```
 
-For robots like Google to see the correct sitemap, you will want to edit the `public/robots.txt` file to use your website domain.
+## Content Management
 
-## Other Resources
+- **Portfolio Galleries**: Add new galleries in `src/data/portfolios/`. Each gallery should have its own folder with an `index.md` file and images.
+- **Testimonials**: Add testimonials in `src/data/testimonials/` with an `index.md` file and optional images.
+- **Site Configuration**: Update site metadata in `src/config/siteData.json.ts`
+- **Navigation**: Modify navigation menu in `src/config/navData.json.ts`
 
-- See my blog post on [recommended Astro web development setup](https://cosmicthemes.com/blog/astro-web-development-setup/).
-- You can learn more information from the [theme docs](https://cosmicthemes.com/docs/) page on the [Cosmic Themes Website](https://cosmicthemes.com/).
-
-## License
-
-This project is open source and available under the [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
-However, If you have purchased [All Access](https://cosmicthemes.com/all-access/) from Cosmic Themes, there is a no attribution required license you can view at [License details](https://cosmicthemes.com/license/).
-
-## General Astro Info
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory. I also frequently use `src/assets` for images when using Astro asssets for image optimization.
-
-### Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run format`          | Format code with ESLint and Prettier             |
+| `npm run lint`            | Run ESLint to check for code issues              |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### Want to learn more?
+## Deployment
 
-Feel free to check out the [Astro documentation](https://docs.astro.build).
+This site is configured for deployment on Netlify (see `netlify.toml`), but can be deployed to any platform that supports Astro, including Vercel, Cloudflare Pages, or other hosting providers.
+
+## Technologies Used
+
+- **Framework**: Astro 5.7
+- **Styling**: Tailwind CSS 4.1
+- **Content**: MDX for content management
+- **Icons**: Astro Icon with Iconify
+- **SEO**: astro-seo
+- **Fonts**: Fontsource (Playfair Display, Raleway, Work Sans, Cinzel Decorative)
+
+## License
+
+This project is open source and available under the [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+However, if you have purchased [All Access](https://cosmicthemes.com/all-access/) from Cosmic Themes, there is a no attribution required license you can view at [License details](https://cosmicthemes.com/license/).
+
+## Learn More
+
+- [Astro Documentation](https://docs.astro.build)
+- [Cosmic Themes Documentation](https://cosmicthemes.com/docs/)
