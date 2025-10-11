@@ -1,7 +1,7 @@
 ---
 title: A beachside celebration
 description: Transform your maternity moments into lasting memories amidst Sydney's majestic landscape.
-heroImage: ./Image_419.JPG
+heroImage: ./Image_419.jpg
 date: "Aug 5 2024"
 location: Sydney, NSW
 clients: [Grant, Blanca]
