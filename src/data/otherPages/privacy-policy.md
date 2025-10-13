@@ -74,7 +74,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy or our practices, please contact via the form on the contact page:
+If you have any questions about this Privacy Policy or our practices, please contact us via the form on the contact page:
 
 Louise Pillon  
 Website: louisepillon.com
